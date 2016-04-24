@@ -384,7 +384,7 @@ angular.module('TreeView', [])
                             valueChangedItems && valueChangedItems.push(data.$treeView.parentData);
                             // 如果父子状态一样就没必要往上检测了
                             // 只有不选择的时候才有可能一样
-                            this.calculateUp(data.$treeView.parentData);
+                            this.calculateUp(data.$treeView.parentData, valueChangedItems);
                         }
                     }
                 },
