@@ -45,7 +45,7 @@ angular.module('yourModule', ['TreeView']);
             {id: '1-1', text: '1-1', children: [
             ...
             ]},
-            {id: '1-2', text: '1-2}
+            {id: '1-2', text: '1-2'}
         ]},
         {id: '2', text: '2'},
         {id: '3', text: '3'}
